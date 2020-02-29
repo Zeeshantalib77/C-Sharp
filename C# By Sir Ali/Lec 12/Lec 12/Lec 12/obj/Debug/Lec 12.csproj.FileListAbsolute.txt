@@ -1,0 +1,6 @@
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 12\Lec 12\bin\Debug\Lec 12.exe.config
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 12\Lec 12\bin\Debug\Lec 12.exe
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 12\Lec 12\bin\Debug\Lec 12.pdb
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 12\Lec 12\obj\Debug\Lec 12.csprojResolveAssemblyReference.cache
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 12\Lec 12\obj\Debug\Lec 12.exe
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 12\Lec 12\obj\Debug\Lec 12.pdb
