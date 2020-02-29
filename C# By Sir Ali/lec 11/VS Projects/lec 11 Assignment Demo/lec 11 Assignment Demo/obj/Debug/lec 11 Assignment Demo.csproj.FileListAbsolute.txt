@@ -1,0 +1,6 @@
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\lec 11 Assignment Demo\lec 11 Assignment Demo\bin\Debug\lec 11 Assignment Demo.exe.config
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\lec 11 Assignment Demo\lec 11 Assignment Demo\bin\Debug\lec 11 Assignment Demo.exe
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\lec 11 Assignment Demo\lec 11 Assignment Demo\bin\Debug\lec 11 Assignment Demo.pdb
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\lec 11 Assignment Demo\lec 11 Assignment Demo\obj\Debug\lec 11 Assignment Demo.exe
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\lec 11 Assignment Demo\lec 11 Assignment Demo\obj\Debug\lec 11 Assignment Demo.pdb
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\lec 11 Assignment Demo\lec 11 Assignment Demo\obj\Debug\lec 11 Assignment Demo.csprojResolveAssemblyReference.cache
