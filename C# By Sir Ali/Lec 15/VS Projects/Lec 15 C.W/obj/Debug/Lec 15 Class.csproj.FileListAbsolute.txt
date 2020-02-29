@@ -1,0 +1,9 @@
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 15 Class\bin\Debug\Lec 15 Class.exe.config
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 15 Class\obj\Debug\Lec 15 Class.csprojResolveAssemblyReference.cache
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 15 Class\bin\Debug\Lec 15 Class.exe
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 15 Class\bin\Debug\Lec 15 Class.pdb
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 15 Class\obj\Debug\Lec 15 Class.exe
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 15 Class\obj\Debug\Lec 15 Class.pdb
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Lec 15 C.W\bin\Debug\Lec 15 Class.exe.config
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Lec 15 C.W\obj\Debug\Lec 15 Class.exe
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Lec 15 C.W\obj\Debug\Lec 15 Class.pdb
