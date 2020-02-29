@@ -1,0 +1,15 @@
+c:\users\ammar\documents\visual studio 2013\Projects\Demo for new Comers\Demo for new Comers\bin\Debug\Demo for new Comers.exe.config
+c:\users\ammar\documents\visual studio 2013\Projects\Demo for new Comers\Demo for new Comers\bin\Debug\Demo for new Comers.exe
+c:\users\ammar\documents\visual studio 2013\Projects\Demo for new Comers\Demo for new Comers\bin\Debug\Demo for new Comers.pdb
+c:\users\ammar\documents\visual studio 2013\Projects\Demo for new Comers\Demo for new Comers\obj\Debug\Demo for new Comers.csprojResolveAssemblyReference.cache
+c:\users\ammar\documents\visual studio 2013\Projects\Demo for new Comers\Demo for new Comers\obj\Debug\Demo for new Comers.exe
+c:\users\ammar\documents\visual studio 2013\Projects\Demo for new Comers\Demo for new Comers\obj\Debug\Demo for new Comers.pdb
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Demo for new Comers\Demo for new Comers\bin\Debug\Demo for new Comers.exe.config
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Demo for new Comers\Demo for new Comers\obj\Debug\Demo for new Comers.exe
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Demo for new Comers\Demo for new Comers\obj\Debug\Demo for new Comers.pdb
+G:\Programming Academy\C# MSDN\Lec 1\Demo for new Comers\Demo for new Comers\bin\Debug\Demo for new Comers.exe.config
+G:\Programming Academy\C# MSDN\Lec 1\Demo for new Comers\Demo for new Comers\obj\Debug\Demo for new Comers.exe
+G:\Programming Academy\C# MSDN\Lec 1\Demo for new Comers\Demo for new Comers\obj\Debug\Demo for new Comers.pdb
+G:\Programming Academy\C# MSDN\Lec 1\Demo for new Comers\Demo for new Comers\bin\Debug\Demo for new Comers.exe
+G:\Programming Academy\C# MSDN\Lec 1\Demo for new Comers\Demo for new Comers\bin\Debug\Demo for new Comers.pdb
+G:\Programming Academy\C# MSDN\Lec 1\Demo for new Comers\Demo for new Comers\obj\Debug\Demo for new Comers.csprojResolveAssemblyReference.cache
