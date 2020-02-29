@@ -1,0 +1,6 @@
+c:\users\ammar\documents\visual studio 2013\Projects\Lec 7\Lec 7\bin\Debug\Lec 7.exe.config
+C:\Users\Ammar\documents\visual studio 2013\Projects\Lec 7\Lec 7\bin\Debug\Lec 7.exe
+C:\Users\Ammar\documents\visual studio 2013\Projects\Lec 7\Lec 7\bin\Debug\Lec 7.pdb
+C:\Users\Ammar\documents\visual studio 2013\Projects\Lec 7\Lec 7\obj\Debug\Lec 7.csprojResolveAssemblyReference.cache
+C:\Users\Ammar\documents\visual studio 2013\Projects\Lec 7\Lec 7\obj\Debug\Lec 7.exe
+C:\Users\Ammar\documents\visual studio 2013\Projects\Lec 7\Lec 7\obj\Debug\Lec 7.pdb
