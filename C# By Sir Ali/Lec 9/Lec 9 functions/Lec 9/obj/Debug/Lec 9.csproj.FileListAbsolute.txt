@@ -1,0 +1,9 @@
+c:\users\ammar\documents\visual studio 2013\Projects\Lec 9\Lec 9\bin\Debug\Lec 9.exe.config
+c:\users\ammar\documents\visual studio 2013\Projects\Lec 9\Lec 9\bin\Debug\Lec 9.exe
+c:\users\ammar\documents\visual studio 2013\Projects\Lec 9\Lec 9\bin\Debug\Lec 9.pdb
+c:\users\ammar\documents\visual studio 2013\Projects\Lec 9\Lec 9\obj\Debug\Lec 9.csprojResolveAssemblyReference.cache
+c:\users\ammar\documents\visual studio 2013\Projects\Lec 9\Lec 9\obj\Debug\Lec 9.exe
+c:\users\ammar\documents\visual studio 2013\Projects\Lec 9\Lec 9\obj\Debug\Lec 9.pdb
+C:\Users\Ammar\Documents\Visual Studio 2013\Projects\Lec 9 functions\Lec 9\bin\Debug\Lec 9.exe.config
+C:\Users\Ammar\Documents\Visual Studio 2013\Projects\Lec 9 functions\Lec 9\obj\Debug\Lec 9.exe
+C:\Users\Ammar\Documents\Visual Studio 2013\Projects\Lec 9 functions\Lec 9\obj\Debug\Lec 9.pdb
