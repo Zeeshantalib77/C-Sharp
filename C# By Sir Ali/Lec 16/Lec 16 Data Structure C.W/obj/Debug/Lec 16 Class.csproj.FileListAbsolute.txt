@@ -1,0 +1,9 @@
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 16 Class\bin\Debug\Lec 16 Class.exe.config
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 16 Class\bin\Debug\Lec 16 Class.exe
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 16 Class\bin\Debug\Lec 16 Class.pdb
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 16 Class\obj\Debug\Lec 16 Class.csprojResolveAssemblyReference.cache
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 16 Class\obj\Debug\Lec 16 Class.exe
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 16 Class\obj\Debug\Lec 16 Class.pdb
+G:\Programming Academy\C# MSDN\Lec 16\Lec 16 Data Structure C.W\bin\Debug\Lec 16 Class.exe.config
+G:\Programming Academy\C# MSDN\Lec 16\Lec 16 Data Structure C.W\obj\Debug\Lec 16 Class.exe
+G:\Programming Academy\C# MSDN\Lec 16\Lec 16 Data Structure C.W\obj\Debug\Lec 16 Class.pdb
