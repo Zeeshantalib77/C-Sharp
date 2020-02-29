@@ -1,0 +1,58 @@
+5.19 (Sales Commission Calculator) A large company pays its salespeople on a commission basis.
+The salespeople receive $200 per week plus 9% of their gross sales for that week. For example, a
+salesperson who sells $5,000 worth of merchandise in a week receives $200 plus 9% of $5,000, or
+a total of $650. You’ve been supplied with a list of the items sold by each salesperson. The values of
+these items are as follows:
+Item Value
+1 239.99
+2 129.75
+3 99.95
+4 350.89
+Develop a C# app that inputs one salesperson’s items sold for the last week, then calculates and displays
+that salesperson's earnings. There’s no limit to the number of items that can be sold by a
+salesperson.
+
+
+
+Solution.......
+ class CommissionTest
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter the quantity of first item sold: ");
+            int q1 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the quantity of Second item sold: ");
+            int q2 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the quantity of third item sold: ");
+            int q3 = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter the quantity of fourth item sold: ");
+            int q4 = Convert.ToInt32(Console.ReadLine());
+            Commission Agent1 = new Commission(q1, q2, q3, q4);
+            Console.WriteLine("Total Earnings/Sale is :{0:c}\nTotal Weekly Salary is: {1:c}", Agent1.totalEarnings(), Agent1.WeeklySalary());
+        }
+    }
+    class Commission
+    {
+        
+        public Commission(int q1,float q2,int q3,int q4)
+        {
+            Item1 = q1 * 239.99;
+            Item2 = q2 * 129.75;
+            Item3 = q3 * 99.93;
+            Item4 = q4 * 350.89;
+        }
+        public double Item1 { get; set; }
+        public double Item2 { get; set; }
+        public double Item3 { get; set; }
+        public double Item4 { get; set; }
+
+        public double totalEarnings()
+        {
+            return Item1 + Item2 + Item3 + Item4;
+        }
+        public double WeeklySalary()
+        {
+            return 200 + ((totalEarnings() / 100) * 9);
+        }
+    }
+}

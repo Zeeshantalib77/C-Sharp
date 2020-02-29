@@ -1,0 +1,7 @@
+private Image ImageFromArray(byte[] ImageArray)
+        {
+            MemoryStream ms = new MemoryStream(ImageArray);
+            Bitmap bmp = new Bitmap(ms);
+            Image img = (Image)bmp;
+            return img;
+        }

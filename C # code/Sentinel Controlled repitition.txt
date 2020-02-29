@@ -1,0 +1,56 @@
+   public class GradeBook
+    {
+        public string CourseName { get; set; } //Auto-Implemented Property
+        public GradeBook(string name)  //Constructor with single parameter
+        {
+            CourseName = name;
+        }
+        public void DisplayMessage()  //function OR method to display output
+        {
+            Console.WriteLine("Welcome to GradeBook for {0} ", CourseName);
+        }
+
+        public void DetermineClassAverage() //method for calculating Average
+        {
+            int total = 0;  //total is initialized with value 0
+            int gradeCounter = 0; //gradeCounter is initialized with value 0
+            int grade;
+            double Average;
+
+            Console.Write("Enter Grade or -1 to quit: "); //promp user
+            grade = Convert.ToInt32(Console.ReadLine()); //read grade
+
+            while (grade != -1)
+            {
+                total += grade;  //Add grade to total
+                gradeCounter++;  //Increment gradeCounter
+
+                Console.Write("Enter Grade or -1 to quit: "); //promp user
+                grade = Convert.ToInt32(Console.ReadLine()); //read grade
+            }
+            //Loop until sentinel value is read from user
+            if (gradeCounter != 0) //Sentinel-Contorlled Repition
+            {
+                Average = (double) total / gradeCounter;
+
+                //Display total and average (with two digit of precision)
+                Console.WriteLine("Total of the {0} grades is {1}", gradeCounter, total);
+                Console.WriteLine("Class Average is {0:F}", Average);
+            }
+            else
+            {
+                //no grades entered, so output error message
+                Console.WriteLine("NO grades were entered");
+            }
+        }
+    }
+
+    public class GradeBookTest
+    {
+        static void Main(string[] args)
+        {
+            GradeBook Book1 = new GradeBook("Intro to Computer Science"); //creating object Book1 of GradeBook Class
+            Book1.DisplayMessage();
+            Book1.DetermineClassAverage();
+        }
+    }

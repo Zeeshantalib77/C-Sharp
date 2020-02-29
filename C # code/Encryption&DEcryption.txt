@@ -1,0 +1,226 @@
+   //    Question 5.41 (Enforcing Privacy with Cryptography) The explosive growth of Internet communications
+    //    and data storage on Internet-connected computers has greatly increased privacy concerns.The field
+    //of cryptography is concerned with coding data to make it difficult(and hopefully—with the most
+    //advanced schemes—impossible) for unauthorized users to read.In this exercise you’ll investigate a
+    //simple scheme for encrypting and decrypting data. A company that wants to send data over the Internet
+    //has asked you to write a program that will encrypt it so that it may be transmitted more securely.
+    //All the data is transmitted as four-digit integers. Your app should read a four-digit integer
+    //entered by the user and encrypt it as follows: Replace each digit with the result of adding 7 to the
+    //digit and getting the remainder after dividing the new value by 10. Then swap the first digit with
+    //the third, and swap the second digit with the fourth.Then display the encrypted integer.Write a
+    //separate app that inputs an encrypted four-digit integer and decrypts it(by reversing the encryption
+    //scheme) to form the original number.Use the format specifier D4 to display the encrypted value in
+    //case the number starts with a 0.
+
+
+    class testing 
+    {
+        public static void Main(string[] args)
+        {
+            Console.Write("Please enter the 4-digit number you want to Encrypt: ");
+            string number = Console.ReadLine();
+            try
+            {
+                var Encrypted = new Encryption(number);
+                Console.WriteLine(Encrypted);
+                var Decrypted = new Decryption(Convert.ToInt32(Encrypted.EncryptedNumber()));
+                Console.WriteLine(Decrypted);
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex.Message);
+            }
+        }
+    }
+    class Encryption
+    {
+        private int firstDigit;
+        private int secondDigit;
+        private int thirdDigit;
+        private int fourthDigit;
+
+        public Encryption(string number)
+        {
+            if (Validation(number))
+            {
+                FirstDigit = Convert.ToInt32(number);
+                SecondDigit= Convert.ToInt32(number);
+                ThirdDigit = Convert.ToInt32(number);
+                FourthDigit = Convert.ToInt32(number);
+            }
+            else
+                throw new Exception("INVALID INPUT {number should be 4 digit long}");
+        }
+
+        public bool Validation(string number)
+        {
+            if (number.Length != 4)
+            {
+                return false;
+            }
+            else
+                return true;
+        }
+        public int FirstDigit
+        {
+            get
+            {
+                return firstDigit; ;
+            }
+            set
+            {
+                firstDigit = splitDigits(value, 1);
+            }
+        }
+
+        public int SecondDigit
+        {
+            get
+            {
+                return secondDigit;
+            }
+            set
+            {
+                secondDigit = splitDigits(value, 2);
+            }
+        }
+
+        public int ThirdDigit
+        {
+            get
+            {
+                return thirdDigit;
+            }
+            set
+            {
+                thirdDigit = splitDigits(value, 3);
+            }
+        }
+        public int FourthDigit
+        {
+            get
+            {
+                return fourthDigit;
+            }
+            set
+            {
+                fourthDigit = splitDigits(value, 4);
+            }
+        }
+
+        public int splitDigits(int number,int digitNumber)
+        {
+            string stringNumber = number.ToString();
+
+            //if (stringNumber.Length<4)
+            //{
+            //    stringNumber = "0" + stringNumber;
+            //}
+            if (stringNumber.Length == 3)
+            {
+                stringNumber = "0" + stringNumber;
+            }
+            else if (stringNumber.Length == 2)
+            {
+                stringNumber = "00" + stringNumber;
+            }
+            else if (stringNumber.Length == 1)
+            {
+                stringNumber = "000" + stringNumber;
+            }
+            else
+            {
+                stringNumber = stringNumber;
+            }
+            int newdigit = Convert.ToInt32(stringNumber.Substring(digitNumber - 1, 1));
+            return (newdigit + 7) % 10;
+        }
+
+        public string EncryptedNumber()
+        {
+            return ThirdDigit.ToString() + FourthDigit.ToString() + FirstDigit.ToString() + SecondDigit.ToString();
+        }
+        public override string ToString()
+        {
+            return string.Format("Encrypted Number is {0}", EncryptedNumber());
+        }
+    }
+    class Decryption
+    {
+        private int firstDigit;
+        private int secondDigit;
+        private int thirdDigit;
+        private int fourthDigit;
+
+        public Decryption(int EncrpytedNumber)
+        {
+            FirstDigit = EncrpytedNumber;
+            SecondDigit = EncrpytedNumber;
+            ThirdDigit = EncrpytedNumber;
+            FourthDigit = EncrpytedNumber;
+        }
+        public int FirstDigit
+        {
+            get
+            {
+                return firstDigit;
+            }
+            set
+            {
+                firstDigit = value / 1000;
+            }
+        }
+        public int SecondDigit
+        {
+            get
+            {
+                return secondDigit;
+            }
+            set
+            {
+                secondDigit = (value / 100) - FirstDigit * 10; 
+            }
+        }
+        public int ThirdDigit
+        {
+            get
+            {
+                return thirdDigit;
+            }
+            set
+            {
+                thirdDigit = (value / 10) - (SecondDigit * 10) - (FirstDigit * 100);
+            }
+        }
+        public int FourthDigit
+        {
+            get
+            {
+                return fourthDigit;
+            }
+            set
+            {
+                fourthDigit = (value / 1) - (ThirdDigit * 10) - (SecondDigit * 100) - (FirstDigit * 1000);
+            }
+        }
+
+        public string DecryptedNumber()
+        {
+            string finalNumber = "";
+            int temp = 0;
+            temp = (ThirdDigit - 7 + 10) % 10;
+            finalNumber += temp.ToString();
+            temp = (FourthDigit - 7 + 10) % 10;
+            finalNumber += temp.ToString();
+            temp = (FirstDigit - 7 + 10) % 10;
+            finalNumber += temp.ToString();
+            temp = (SecondDigit - 7 + 10) % 10;
+            finalNumber += temp.ToString();
+            return finalNumber;
+        }
+        public override string ToString()
+        {
+            return string.Format("Decrypted Number is {0}", DecryptedNumber());
+        }
+    }

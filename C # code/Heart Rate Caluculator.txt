@@ -1,0 +1,104 @@
+ public class HeartRates
+    {
+        private string firstName;
+        private string lastName;
+        private int yearOfBirth;
+        private int currentYear;
+
+        public HeartRates(string fname,string lname,int birthYear,int currentyear)  //this is a constructor of class.
+        {
+            FirstName = fname;
+            LastName = lname;
+            YearOfBirth = birthYear;
+            CurrentYear = currentyear;
+        }
+
+        public string FirstName   //this is object property .Properties contain get accessors for reading the values
+				  of variables, and set accessors for storing values into them.
+        {
+            get
+            {
+                return firstName;
+            }
+            set
+            {
+                firstName = value;
+            }
+        }
+        public string LastName
+        {
+            get
+            {
+                return lastName;
+            }
+            set
+            {
+                lastName = value;
+            }
+        }
+        public int YearOfBirth
+        {
+            get
+            {
+                return yearOfBirth;
+            }
+            set
+            {
+                yearOfBirth = value;
+            }
+        }
+        public int CurrentYear
+        {
+            get
+            {
+                return currentYear;
+            }
+            set
+            {
+                currentYear = value;
+            }
+        }
+        public int Age()  //Method of the Class HeartRates
+        {
+            int age=CurrentYear - YearOfBirth;
+            return age;
+        }
+
+        public int MaxHeartRate()  //Method of the Class HeartRates
+        {
+            return 220 - Age();
+
+        }
+        public void targetHeartRate()  //Method of the Class HeartRates
+        {
+            int fiftypercent = (MaxHeartRate() / 100) * 50;
+            int eightyfivepercent = (MaxHeartRate() / 100) * 85;
+            Console.WriteLine("Target Heart Rate (50-85%) is {0}-{1} beats per minute",fiftypercent,eightyfivepercent);
+        }
+
+
+
+    }
+
+    public class HeartRatesTest
+    {
+	// Main method begins program execution
+        static void Main(string[] args)
+        {
+            Console.Write("Please enter your first name: ");
+            string fname=Console.ReadLine();
+            Console.Write("Please enter your last name: ");
+            string lname = Console.ReadLine();
+            Console.Write("Please enter your year of birth as e.g 2001: ");
+            int birthYear = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Please enter curent year as e.g 2015: ");
+            int currentyear = Convert.ToInt32(Console.ReadLine());
+            HeartRates rate1 = new HeartRates(fname,lname,birthYear,currentyear);   // create a HeartRates object and assign it to rate1
+            System.Console.Clear();
+            Console.WriteLine("------------------------------------\n\t\tNOTE\n------------------------------------\n=> Take your pulse on the inside of your wrist, on the thumb side.\n=> Use the tips of your first two fingers(not your thumb) to press lightly over the blood vessels on your wrist.\n=> Count your pulse for 10 seconds and multiply by 6 to find your beats per minute.\nYou want to stay between 50 percent to 85 percent of your maximum heart rate.This range is your target heart rate.");
+            Console.WriteLine("\n\n*****************************\nTarget-Heart-Rate Calculator\n***************************");
+            Console.WriteLine("Name: {0} {1}\nAge: {2}\nMaximum Heart Rate (100%): {3}",rate1.FirstName,rate1.LastName,rate1.Age(),rate1.MaxHeartRate());
+            rate1.targetHeartRate();  // call rate1's targetHeartRate method
+        }
+
+    }
