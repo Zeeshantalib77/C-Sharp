@@ -1,0 +1,9 @@
+c:\users\ammarhasssan48\documents\visual studio 2013\Projects\Lec 6\Lec 6\bin\Debug\Lec 6.exe.config
+C:\Users\Ammarhasssan48\documents\visual studio 2013\Projects\Lec 6\Lec 6\bin\Debug\Lec 6.exe
+C:\Users\Ammarhasssan48\documents\visual studio 2013\Projects\Lec 6\Lec 6\bin\Debug\Lec 6.pdb
+C:\Users\Ammarhasssan48\documents\visual studio 2013\Projects\Lec 6\Lec 6\obj\Debug\Lec 6.csprojResolveAssemblyReference.cache
+C:\Users\Ammarhasssan48\documents\visual studio 2013\Projects\Lec 6\Lec 6\obj\Debug\Lec 6.exe
+C:\Users\Ammarhasssan48\documents\visual studio 2013\Projects\Lec 6\Lec 6\obj\Debug\Lec 6.pdb
+C:\Users\Ammar\Documents\Visual Studio 2013\Projects\Lec 6\Lec 6\bin\Debug\Lec 6.exe.config
+C:\Users\Ammar\Documents\Visual Studio 2013\Projects\Lec 6\Lec 6\obj\Debug\Lec 6.exe
+C:\Users\Ammar\Documents\Visual Studio 2013\Projects\Lec 6\Lec 6\obj\Debug\Lec 6.pdb
