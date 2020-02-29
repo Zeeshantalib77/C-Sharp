@@ -1,0 +1,7 @@
+c:\users\ammar\documents\visual studio 2013\Projects\Lec 10\Lec 10\bin\Debug\Lec 10.exe.config
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Lec 10\Lec 10\bin\Debug\Lec 10.exe.config
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Lec 10\Lec 10\obj\Debug\Lec 10.csprojResolveAssemblyReference.cache
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Lec 10\Lec 10\bin\Debug\Lec 10.exe
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Lec 10\Lec 10\bin\Debug\Lec 10.pdb
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Lec 10\Lec 10\obj\Debug\Lec 10.exe
+C:\Users\Ammarhassan48\Documents\Visual Studio 2013\Projects\Lec 10\Lec 10\obj\Debug\Lec 10.pdb
