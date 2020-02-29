@@ -1,0 +1,9 @@
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 17 Collections class work\Lec 17 Collections class work\bin\Debug\Lec 17 Collections class work.exe.config
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 17 Collections class work\Lec 17 Collections class work\bin\Debug\Lec 17 Collections class work.exe
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 17 Collections class work\Lec 17 Collections class work\bin\Debug\Lec 17 Collections class work.pdb
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 17 Collections class work\Lec 17 Collections class work\obj\Debug\Lec 17 Collections class work.csprojResolveAssemblyReference.cache
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 17 Collections class work\Lec 17 Collections class work\obj\Debug\Lec 17 Collections class work.exe
+c:\users\ammarhassan48\documents\visual studio 2013\Projects\Lec 17 Collections class work\Lec 17 Collections class work\obj\Debug\Lec 17 Collections class work.pdb
+G:\Programming Academy\C# MSDN\Lec 17\Lec 17 Collections C.W\Lec 17 Collections class work\bin\Debug\Lec 17 Collections class work.exe.config
+G:\Programming Academy\C# MSDN\Lec 17\Lec 17 Collections C.W\Lec 17 Collections class work\obj\Debug\Lec 17 Collections class work.exe
+G:\Programming Academy\C# MSDN\Lec 17\Lec 17 Collections C.W\Lec 17 Collections class work\obj\Debug\Lec 17 Collections class work.pdb
